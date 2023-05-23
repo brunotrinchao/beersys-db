@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `c`.`id` AS `id`,`c`.`nome` AS `nome`,`c`.`descricao` AS `descricao`,`c`.`logo` AS `logo`,`c`.`celular` AS `celular`,`c`.`telefone` AS `telefone`,`c`.`inclusao` AS `inclusao` from `beersys`.`cliente` `c`
+md5=9ea2d062d68aa29f833bb2e603df74c4
+updatable=1
+algorithm=0
+definer_user=admin
+definer_host=%
+suid=1
+with_check_option=0
+timestamp=2023-05-23 14:28:45
+create-version=1
+source=select\n    `c`.`id` AS `id`,\n    `c`.`nome` AS `nome`,\n    `c`.`descricao` AS `descricao`,\n    `c`.`logo` AS `logo`,\n    `c`.`celular` AS `celular`,\n    `c`.`telefone` AS `telefone`,\n    `c`.`inclusao` AS `inclusao`\nfrom `cliente` `c`
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_unicode_ci
+view_body_utf8=select `c`.`id` AS `id`,`c`.`nome` AS `nome`,`c`.`descricao` AS `descricao`,`c`.`logo` AS `logo`,`c`.`celular` AS `celular`,`c`.`telefone` AS `telefone`,`c`.`inclusao` AS `inclusao` from `beersys`.`cliente` `c`
